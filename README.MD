@@ -12,6 +12,7 @@ This component download a web page (html format) and extracts information from a
 
 Basic usage:
 
+```php
 <?php
 
 use GuzzleHttp\Client;
@@ -27,3 +28,4 @@ $downloader = new PageDownloader($client);
 $pageInformations = $downloader->download($request);
 
 var_dump($pageInformations);
+```
