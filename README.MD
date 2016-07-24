@@ -15,6 +15,7 @@ Basic usage:
 <?php
 
 use GuzzleHttp\Client;
+
 use Psr\Http\Message\Request;
 
 $client = new Client();
